@@ -1,0 +1,171 @@
+---
+title: "Random Sentences: Results from Random Data^[The paragraphs in this article are randomly generated, at https://randomwordgenerator.com. Similarly, the data is fictitious, created the fabricatr package (https://declaredesign.org/r/fabricatr).
+  ]"
+author: "Jane Doe^[Department of Science, University of Random. Email: [jane.doe@random.edu](mailto:jane.doe@random.edu) Website: http://www.janedoe.com.] and Jon Doe"
+date: '`r format(Sys.time(), "%d %B, %Y")`'
+bibliography: references.bib
+cls: apa_6th.csl
+output: 
+  pdf_document:
+    fig_caption: yes
+    keep_tex: yes
+fontsize: 11pt
+toc: true
+link-citations: yes
+---
+
+```{r setup, include = FALSE}
+
+# chunk options
+knitr::opts_chunk$set(echo = FALSE, message = FALSE)
+
+library(dplyr)
+library(ggplot2)
+library(stargazer)
+```
+
+```{r data}
+df <- read.csv("../data/journals.csv") %>%
+  mutate(age = 2020 - since,
+    english = factor(english), 
+    subfield = factor(subfield)) %>%
+  filter(origin != "oceania")
+```
+
+
+Abstract
+
+He heard the crack echo in the late afternoon about a mile away. His heart started racing and he bolted into a full sprint. It was not a gunshot, it was not a gunshot, he repeated under his breathlessness as he continued to sprint. This was on the London–Manchester road. I recently discovered I could make fudge with just chocolate chips, sweetened condensed milk, vanilla extract, and a thick pot on slow heat. I tried it with dark chocolate chips and I tried it with semi-sweet *chocolate chips*—it is better with both kinds. It comes out pretty bad with just the dark chocolate. The best add-ins are crushed almonds and marshmallows. What you get from that is **Rocky Road**. It takes about twenty minutes from start to fridge, and then it takes about six months to work off the twenty pounds you gain from eating it.
+
+
+
+
+# 1. Introduction
+
+All things in moderation, friends. All things in moderation. The author [@bennett2015] sat in the corner where it had been for over 25 years. The only difference was there was someone actually sitting in it. How long had it been since someone had done that? Ten years or more he imagined. Yet there was no denying the presence in the chair now. Stranded. Yes, she was now the first person ever to land on Venus [@bennett2015; @delgado2010], but that was of little consequence. Her name would be read by millions in school as the first to land here, but that celebrity would never actually be seen by her [@tracy2019, p.126]. See [Literature Review](#literature-review)
+
+Gilbert (2019) looked at the control panel and knew there was nothing that would ever get it back into working order. She was the first and it was not clear this would also be her last. I recollect that my first exploit in squirrel-shooting was in a grove of tall walnut-trees that shades one side of the valley (for example, see @bennett2015). I had wandered into it at noontime, when all nature is peculiarly quiet, and was startled by the roar of my own gun, as it broke the Sabbath stillness around and was prolonged and reverberated by the angry echoes [@zimmermann2007].
+
+Cake or pie? I can tell a lot about you by which one you pick. It may seem silly, but cake people and pie people are really different. I know which one I hope you are, but that is not for me to decide. So, what is it? Cake or pie? Dave  watched as the forest burned up on the hill, only a few miles from her house. The car had been hastily packed and Marta was inside trying to round up the last of the pets. Dave went through his mental list of the most important papers and documents that they could not leave behind. He scolded himself for not having prepared these better in advance and hoped that he had remembered everything that was needed. He continued to wait for Marta to appear with the pets, but she still was nowhere to be seen.
+
+This clever question was originally raised by Gilbert (2019).
+
+Dave Smith was born in Barcelona. He sat across from her trying to imagine it was the first time. It was not. Had it been a hundred? It quite possibly could have been. Two hundred? Probably not. His mind wandered until he caught himself and again tried to imagine it was the first time.
+
+
+- He could not move.
+    - His head throbbed and spun. 
+
+- He could not decide if it was the flu or the drinking last night. 
+    - It was probably a combination of both.
+
+He sat across from her trying to imagine it was the first time. It was not. Had it been a hundred? It quite possibly could have been. Two hundred? Probably not. His mind wandered until he caught himself and again tried to imagine it was the first time. What were they eating? It did not taste like anything she had ever eaten before and although she was famished, she did not dare ask. 
+
+
+# 2. Literature Review
+
+The words had not flowed from his fingers for the past few weeks. He never imagined he would find himself with writer's block, but here he sat with a blank screen in front of him. That blank screen taunting him day after day had started to play with his mind. He did not understand why he could not even type a single word, just one to begin the process and build from there. And yet, he already knew that the eight hours he was prepared to sit in front of his computer today would end with the screen remaining blank. See Table 1 below.
+
+\begin{center}
+ \addtocounter{table}{1}
+ Table \arabic{table}: Outcome Measures \label{outcome_measures}
+ \end{center}
+
+| Author | Year | Design | Journal |
+|--------:|--------:|--------:|--------:|
+|Bennet | 2015 | Experimental | Journal of Bone |
+|Delgado & Perry | 2010 | Descriptive | Journal of Route |
+| Gilbert | 2019 | Predictive | Journal of Ground |
+
+It is always good to bring a slower friend with you on a hike. If you happen to come across bears, the whole group does not have to worry. Only the slowest in the group do. That was the lesson they were about to learn that day. Things are not going well at all with mom today. She is just a limp noodle and wants to sleep all the time. I sure hope that things get better soon. The computer would not start. She banged on the side and tried again. Nothing. She lifted it up and dropped it to the table. Still nothing. She banged her closed fist against the top. It was at this moment she saw the irony of trying to fix the machine with violence.
+
+# 3. Theory and Hypotheses
+
+Balloons are pretty and come in different colours, different shapes, different sizes, and they can even adjust sizes as needed. But don't make them too big or they might just pop, and then bye-bye balloon. It will be gone and lost for the rest of humankind. They can serve a variety of purposes, from decorating to water balloon wars. You just have to use your head to think a little bit about what to do with them.
+
+## 3.1. First Hypothesis
+
+It was difficult to explain to them how the diagnosis of certain death had actually given him life. While everyone around him was in tears and upset, he actually felt more at ease. The doctor said it would be less than a year. That gave him a year to live, something he'd failed to do with his daily drudgery of a routine that had passed as life until then. The boy walked down the street in a carefree way, playing without notice of what was about him. He did not hear the sound of the car as his ball careened into the road. He took a step toward it, and in doing so sealed his fate.
+
+---H1: The more specific a subject is, the harder it is to explain to others.
+
+Colours bounced around in her head. They mixed and threaded themselves together. Even colours that had no business being together. They were all one, yet distinctly separate at the same time. How was she going to explain this to the others? I recollect that my first exploit in squirrel-shooting was in a grove of tall walnut-trees that shades one side of the valley. I had wandered into it at noontime, when all nature is peculiarly quiet, and was startled by the roar of my own gun, as it broke the Sabbath stillness around and was prolonged and reverberated by the angry echoes.
+
+## 3.2. Second Hypothesis
+
+You can decide what you want to do in life, but I suggest doing something that creates. Something that leaves a tangible thing once you are done. That way even after you are gone, you will still live on in the things you created. There was no time. He ran out of the door without half the stuff he needed for work, but it did not matter. He was late and if he did not make this meeting on time, someone's life may be in danger. The words had not flowed from his fingers for the past few weeks. He never imagined he would find himself with writer's block, but here he sat with a blank screen in front of him. That blank screen taunting him day after day had started to play with his mind. He did not understand why he could not even type a single word, just one to begin the process and build from there. 
+
+---H2: The less important a subject is, the easier that you can decide.
+
+Google Scholar looks like in Figure 1. And yet, he already knew that the eight hours he was prepared to sit in front of his computer today would end with the screen remaining blank. What have you noticed today? I noticed that if you outline the eyes, nose, and mouth on your face with your finger, you make an "I" which makes perfect sense, but is something I never noticed before. What have you noticed today?
+
+```{r screenshot, fig.align="center", fig.cap = "An Image"}
+knitr::include_graphics("../figures/google_scholar.png")
+```
+ 
+Her eyebrows were a shade darker than her hair. They were thick and almost horizontal, emphasizing the depth of her eyes. She was rather handsome than beautiful. Her face was captivating by reason of a certain frankness of expression and a contradictory subtle play of features. Her manner was engaging. The red ball sat proudly at the top of the toy box. It had been the last to be played with and anticipated it would be the next as well. The other toys grumbled beneath. At one time each had held the spot of the red ball, but over time they had sunk deeper and deeper into the toy box.
+
+# 4. Data and Methods
+
+Figure 2 plots the origin of the journals in the dataset. Sometimes there is not a good answer. No matter how you try to rationalize the outcome, it does not make sense. And instead of an answer, you are simply left with a question. Why? Spending time at national parks can be an exciting adventure, but this was not the type of excitement she was hoping to experience. 
+
+```{r barplot, fig.align="center", fig.cap = "An Image", fig.width=7, fig.height=4}
+df %>%
+  mutate(origin = factor(origin, 
+                         levels = c("Europe", "Americas", "Asia", "Africa", "Oceania"))) %>%
+  ggplot() +
+  geom_bar(aes(x = origin)) +
+  theme_bw() +
+  labs(x = "", Y = "Number of Journals/n")
+```
+
+As she contemplated the situation she found herself in, she knew she'd gotten herself in a little more than she bargained for. It was not often that she found herself in a tree staring down at a pack of wolves that were looking to make her their next meal.
+We therefore use the following equation to calculate the results:
+
+$$ E = mc^{2} $$
+
+```{r descriptive_stats, results = "asis"}
+stargazer(data = df, type = "latex", summary = TRUE, header = FALSE, summary.stat = c("n", "mean" ,"sd", "min", "max"))
+```
+
+We consider a2 = b2 + c2 as an alternative. Balloons are pretty and come in different colours, different shapes, different sizes, and they can even adjust sizes as needed. But do not make them too big or they might just pop, and then bye-bye balloon. It will be gone and lost for the rest of mankind. They can serve a variety of purposes, from decorating to water balloon wars. You just have to use your head to think a little bit about what to do with them. According to the caption on the bronze marker placed by the Multnomah Chapter of the Daughters of the American Revolution on May 12, 1939, College Hall (is) the oldest building in continuous use for Educational purposes west of the Rocky Mountains. Here were educated men and women who have won recognition throughout the world in all the learned professions. See Table 2 below.
+
+# 5. Results
+
+The chair sat in the corner where it had been for over 25 years. The only difference was there was someone actually sitting in it. See Figure 3 below. How long had it been since someone had done that? Ten years or more he imagined. Yet there was no denying the presence in the chair now. Turning away from the ledge, he started slowly down the mountain, deciding that he would, that very night, satisfy his curiosity about the man-house. The Adjusted R^2^ increases with additional control variables. CO~2~ levels remain high.
+
+```{r scatterplot, fig.cap = "\\textit{The relationship between H5 Index and H5 Median.}"}
+ggplot(data= df, aes(x = h5_index, y = h5_median, colour = subfield)) +
+  geom_point() +
+  theme_bw()+
+  labs(x = " H5 Index", y = "H5 Median") +
+  theme(axis.title = element_text(size = 12)) +
+  facet_wrap(. ~ origin) +
+  scale_colour_discrete(name = "Journal Type", breaks = c(0, 1),
+                        labels = c("Generalist", "Subfield"))
+```
+```{r regression, results = "asis"}
+lm1 <- lm(h5_index ~ issues, data = df)
+lm2 <- lm(h5_index ~ issues + english, data = df)
+lm3 <- lm(h5_index ~ issues + english + subfield, data = df)
+lm4 <- lm(h5_index ~ issues + english + subfield + age, data = df)
+
+stargazer(lm1, lm2, lm3, lm4,
+          type = "latex", summary = FALSE, header = FALSE, title = "Reression Results", label = "regression_table", dep.var.caption = "",dep.var.labels.include = FALSE,
+          covariate.labels = c("Issues per Year", "in English", "Subfield Journal", "Journal Age" ), omit.stat = c("adj.rsq", "ser", "f"),
+          star.cutoffs = c(0.05, 0.01, 0.001), 
+          notes.append = FALSE, notes.align = "l",
+          notes = "All models OLS regressions. Standard errors in parentheses. *** p < 0.001.")
+```
+
+\autoref{regression_table} presents these results. In the meantime, he would go down into the canyon and get a cool drink, after which he would visit some berry patches just over the ridge, and explore among the foothills a bit before his nap-time, which always came just after the sun had walked past the middle of the sky. At that period of the day the sun’s warm rays seemed to cast a sleepy spell over the silent mountainside, so all of the animals, with one accord, had decided it should be the hour for their mid-day sleep. According to Model 1, every toher issue that journals publish in a given year is associated with a `r round(coef(summary(lm1))["issues", "Estimate"], digits = 2)` increase  (**standard error = **)in their H5 Index.   
+
+
+What was beyond the bend in the stream was unknown. Both were curious, but only one was brave enough to want to explore. That was the problem. There was always one that let fear rule her life. I'm heading back to Colorado tomorrow after being down in Santa Barbara over the weekend for the festival there. I will be making October plans once there and will try to arrange so I am back here for the birthday if possible. I will let you know as soon as I know the doctor's appointment schedule and my flight plans.
+
+# 6. Conclusion
+
+I recently discovered I could make fudge with just chocolate chips, sweetened condensed milk, vanilla extract, and a thick pot on slow heat. I tried it with dark chocolate chunks and I tried it with semi-sweet chocolate chips. It is better with both kinds. It comes out pretty bad with just the dark chocolate. The best add-ins are crushed almonds and marshmallows. It takes about twenty minutes from start to fridge, and then it takes about six months to work off the twenty pounds you gain from eating it. All things in moderation, friends. All things in moderation.
+
+# References
+<div id="refs"></div>
